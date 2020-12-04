@@ -1,0 +1,22 @@
+name: RankupMax
+main: xyz.oribuin.rankupmax.RankupMax
+version: '1.0'
+author: Oribuin
+description: Create your own customizable emojis to spice up your chat!
+website: https://oribuin.xyz/
+depend:
+  - Vault
+  - EZRanksPro
+  - EZPrestige
+softdepend:
+  - PlaceholderAPI
+commands:
+  maxreload:
+    description: Reload the plugin
+    usage: /<usage>>
+  maxprestige:
+    description: Set yourself to max prestige
+    usage: /<usage>
+  maxrankup:
+    description: Set yourself to max rank
+    usage: /<usage>
